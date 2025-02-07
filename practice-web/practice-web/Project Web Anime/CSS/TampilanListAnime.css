@@ -1,0 +1,91 @@
+/*h1*/
+
+
+h1 {
+    color:#FFFFFF;
+}
+body{ background-color: rgb(31, 31, 31);
+    padding-top: 50px;
+    font-family: "Roboto", serif;}
+
+a{color: #ffffff;
+    text-decoration:none;}
+a:visited{color: rgb(49, 21, 153);}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+
+
+/*TABEL ANIME SECTION*/
+.tableanime{
+    background-color: #252525;
+}
+
+.textHeadJudul{
+    font-size: 20px;
+    color: rgb(143, 173, 228); 
+}
+
+.viewTableAnime{
+    width: 5%;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(31, 31, 31);
+    border-collapse: collapse;
+}
+
+.viewJudulAnime{
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    text-align: left;
+    padding: 5px;
+}
+
+.viewTableRating{width: 2%;
+    border: 1px solid #FFFFFF;}
+.viewTableStatus{width: 1%;
+    border: 1px solid #FFFFFF;}
+.viewTableMyAnimeList{width: 1%;
+    border: 1px solid #FFFFFF;}
+
+.warnaTable:nth-child(even){
+    background-color: rgb(88, 107, 107);
+}
+
+.tablejudul {
+    color: #FFFFFF;
+    border:2px solid, rgb(255, 255, 255);
+    border-collapse: collapse;
+    margin: 50px;
+}
+
+.footerhome {
+    background-color: rgba(7, 9, 20, 0.829);
+    font-size: 15px ;
+    color: white;
+    padding: 10px;
+    position: fixed; bottom: 0; width: 100%;
+}

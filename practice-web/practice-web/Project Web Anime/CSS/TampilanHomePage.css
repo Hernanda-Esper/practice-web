@@ -1,0 +1,108 @@
+h1 {
+	color: #ffffff;
+  background: #000f39e0;
+}
+
+
+body {
+	background-color: #faf6e9;
+	padding-top: 50px;
+	font-family: "Roboto", serif;
+}
+
+a {
+	color: #ffffff;
+	text-decoration: none;
+}
+a:visited {
+	color: rgb(49, 21, 153);
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #27445D;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover:not(.active) {
+	background-color: #111;
+}
+
+div {
+	display: block;
+	unicode-bidi: isolate;
+}
+.content {    
+  float: left;
+  padding-bottom: 20px;
+  width: calc(100% - 340px);
+
+}
+.homepagetop {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 0;
+    padding: 10px 0;
+    position: relative;
+    text-align: center;
+    background: var(#71BBB2);
+    color: var(white);
+    padding: 15px;
+  
+}
+
+
+/*HOVER IMAGE ZONE*/
+
+.imganime {
+	--s: 170px; /* the size of the image */
+  --d: 210px
+	--b: 8px; /* the border thickness*/
+	--g: 14px; /* the gap */
+	--c: #4ecdc4; /* the color */
+
+	width: var(--s);
+  height: var(--d);
+	outline: calc(var(--s) / 2) solid #0009;
+	outline-offset: calc(var(--s) / -2);
+	cursor: pointer;
+	transition: 0.3s;
+}
+.imganime:hover {
+	outline: var(--b) solid var(--c);
+	outline-offset: var(--g);
+}
+
+.imganime {
+	border-radius: 5%;
+}
+
+/* ATAS HOVER ZONE */
+
+
+.footerhome {
+	background-color: rgba(7, 9, 20, 0.829);
+	font-size: 15px;
+	color: white;
+	padding: 10px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
